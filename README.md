@@ -1,7 +1,7 @@
 Opentainer  
 ==============
 To run the opentainer app locally, follow the steps given below:
-
+```
 git clone https://github.com/OpenTainer/opentainer.git
 cd opentainer
 virtualenv venv
@@ -12,7 +12,8 @@ python manage.py makemigrations
 
 python manage.py migrate  
 
-sudo python manage.py runserver  
+sudo python manage.py runserver
+```
 (run this command as root to avoid some of the error which might be encountered later)  
 
 ===============  
